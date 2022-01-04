@@ -16,5 +16,5 @@ try {
     })  
 
 } catch (error) {
-    console.log('This is an error message', err)
+    console.log('This is an errr message', err)
 }
