@@ -9,7 +9,7 @@ try {
         {   useNewUrlParser: true, 
             useUnifiedTopology: true,
             useCreateIndex: true  }).then(
-        console.log(`We are listening on port ${process.env.PORT} ::: Version >>`, process.env.VERSION),   
+        console.log(`We are liening on port ${process.env.PORT} ::: Version >>`, process.env.VERSION),   
         app.listen(process.env.PORT)
     ).catch(error => {
         console.log("Error connecting to the database4: ", error)
