@@ -1,7 +1,7 @@
 pipeline {
     environment {
       registry = "ubimoz/test-service"
-      registryCredential = 'dockerhub'
+      registryCredential = 'docker'
       dockerImage = ''
     }
 
